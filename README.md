@@ -7,3 +7,9 @@ Technology used:
 -JavaScript
 
 Author : Konrad Bolesławski
+
+Author of PSD:
+ https://dribbble.com/sudinasa
+
+
+
