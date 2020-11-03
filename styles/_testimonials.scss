@@ -1,0 +1,83 @@
+.testimonials_section_container{
+    display:flex;
+    width:100%;
+    background-color: #10c9c3;
+    .container_for_content{
+        display:flex;
+        margin:100px auto 0 auto;
+        width:100%;
+        max-width: 800px;
+        flex-direction: column;
+        overflow: hidden;
+        .dots_container{
+            width:50px;
+            height:10px;
+            margin: 50px auto 60px auto;
+            display:flex;
+            .dot{
+                cursor:pointer;
+                width:6px;
+                height:6px;
+                margin:auto;
+                background-color:white;
+                display:flex;
+                border-radius:50%;
+                transition: .5s ease-in-out;
+            }
+            .active_dot{
+                width:10px;
+                height:10px;
+            }
+        }
+        .container_main_content_container{
+        display:flex;
+        width:300%;
+        overflow: hidden;
+        .content_container{
+            width:100%;
+            transition: .5s ease-in-out;
+            display:flex;
+            flex-direction: column;
+            .testimonials_p{
+                color: #ffffff;
+                font-weight: 500;
+                font-style: normal;
+                text-align: center;
+                font-size: 30px;
+                letter-spacing: 0.3px;
+                margin-bottom: 35px;
+            }
+            .testimonials_title{
+                    color: #ffffff;
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-align: center;
+                    text-transform: uppercase;
+                    letter-spacing: 1.2px;
+            }
+        }
+        }   
+        
+    }
+}
+@media only screen and (max-width: 835px){
+    .testimonials_section_container{
+  
+        .container_for_content{
+       width:90%;
+            .dots_container{
+                margin: 50px auto 60px auto;
+               
+            }
+            .container_main_content_container{
+            .content_container{
+         
+                .testimonials_p{
+               font-size:20px;
+                }
+              
+            }   
+        }
+        }
+    }
+}

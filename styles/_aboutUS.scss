@@ -1,0 +1,174 @@
+.about_us_container{
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    .about_us_number_of_opinion_container{
+        width:100%;
+        background-color: #10c9c3;
+        display:flex;
+        .opinion_container_main{
+            width:90%;
+            max-width: 1400px;
+            margin:100px auto;
+            display:flex;
+            .con{
+                display:flex;
+                justify-content: space-evenly;
+                flex:1;
+                .single_container{
+                    height:40px;
+                    display:flex;
+                    img{
+                        width:40px;
+                        height:40px;
+                        margin-right:25px;
+                    }
+                    .content_single_container{
+                        height:40px;
+                        display:flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        h3{
+                            color: #ffffff;
+                            font-size: 18px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: left;
+                            text-transform: uppercase;
+                            letter-spacing: 0.54px;
+                        }
+                        p{
+                            color: #ffffff;
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: left;
+                            text-transform: uppercase;
+                            letter-spacing: 1.2px;
+                        }
+                    }
+                }
+            }
+            }
+           
+    }
+    .About_us_content_container{
+        font-size:16px;
+        width:620px;
+        height:220px;
+        margin:100px auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .About_us_Title{
+            font-size:1.9em;
+            color: #191919;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            letter-spacing: 0.3px;
+        }
+        .About_us_P{
+            color: #787878;
+            font-size: 1em;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+            letter-spacing: 0.08px;
+            line-height: normal;
+        }
+        .About_us_Img_signature{
+            width:222px;
+            height:57px;
+            margin:0 auto;
+        }
+    }
+}
+@media only screen and (max-width: 1000px){
+    .about_us_container{
+        .about_us_number_of_opinion_container{
+            .opinion_container_main{
+                flex-direction: column;
+                .con_top{
+                    margin-bottom:50px;
+                }
+                .con{
+                    .single_container{
+                        width:220px;
+                        justify-content: center;
+                }
+                }
+               
+        }
+      
+    }
+}
+}
+@media only screen and (max-width: 740px){
+    .about_us_container{
+  
+        .About_us_content_container{
+            width: 90%;
+            height:initial;
+            .About_us_Title{
+                margin-bottom: 30px;
+            }
+            .About_us_P{
+              margin-bottom: 35px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 700px){
+    .about_us_container{
+        .about_us_number_of_opinion_container{
+            .opinion_container_main{
+        margin:100px auto 50px auto;
+                .con_top{
+                    margin-bottom: initial;
+                }
+                .con{
+               flex-direction: column;
+                    .single_container{
+                        margin:0 auto 50px 40px;
+                        justify-content: initial;
+                }
+                }
+               
+        }
+     
+    }
+}
+}
+@media only screen and (max-width: 360px){
+    .about_us_container{
+        .about_us_number_of_opinion_container{
+            .opinion_container_main{
+                     margin:100px auto 50px auto;
+                .con_top{
+                    margin-bottom: initial;
+                }
+                .con{
+               flex-direction: column;
+                    .single_container{
+                        margin:0 auto 50px 10px;
+                        justify-content: initial;
+                }
+                }
+               
+        }
+     
+    }
+}
+}
+@media only screen and (max-width: 260px){
+    .about_us_container{
+        .About_us_content_container{
+            .About_us_Img_signature{
+            width:100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.services_container{
+    background-color: #f5f5f5;
+    display:flex;
+    width:100%;
+    .services_container_main{
+        max-width: 1400px;
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        margin:100px auto;
+        .column_services{
+            display:flex;
+            justify-content: space-between;
+            .services_box{
+                display:flex;
+                flex-direction: column;
+                width:230px;
+                height:135px;
+                justify-content: space-between;
+                .img_services_box{
+                    width:40px;
+                    height:40px;
+                    margin:0 auto;
+                }
+                .title_services_box{
+                    color: #191919;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-style: normal;
+                    text-transform: uppercase;
+                    letter-spacing: 1.2px;
+                    margin:0 auto;
+                }
+                .text_services_box{
+                     color: #787878;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: center;
+                    letter-spacing: 0.08px;
+                }
+            }
+    }
+    .first_column{
+        margin-bottom: 40px;
+    }
+}
+}
+@media only screen and (max-width: 1050px){
+    .services_container{
+     
+        .services_container_main{
+        flex-direction: row;
+        margin:100px auto 60px auto;
+            .column_services{
+                flex-direction: column;
+                margin:0 auto ;
+                .services_box{
+                    margin-bottom:40px;
+                }
+        }
+        .first_column{
+            margin-bottom: initial;
+        }
+    }
+    }
+}
+@media only screen and (max-width: 600px){
+    .services_container{
+     
+        .services_container_main{
+            flex-direction: column;
+    }
+    }
+}
+@media only screen and (max-width: 280px){
+    .services_container{
+     
+        .services_container_main{
+            flex-direction: column;
+            .column_services{
+           
+                .services_box{
+                    width:100%;
+                }
+        }
+    }
+    }
+}

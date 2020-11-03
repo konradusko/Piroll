@@ -1,0 +1,17 @@
+@import './header';
+@import './aboutUS';
+@import './outWorkProcess';
+@import './services';
+@import './testimonials';
+@import './contact';
+@import './footer';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
